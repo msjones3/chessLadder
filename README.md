@@ -26,7 +26,7 @@ You must create a graphical user interface that will store the player usernames 
 - Design a user-interface with PySimpleGUI that is simple for the administrator and players to use. (Please make this as simple and intuitive for your user as possible)
 
 ## How to start
-- Read through the code.
+- You have been given some distribution code. Read this!
 - Highlight the functions and annotate with their purpose.
 - Draw a flowchart or sketch that shows how the database will be updated. 
 - Draw a mockup/wireframe of your GUI
