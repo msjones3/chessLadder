@@ -1,5 +1,21 @@
 # chessLadder
-distribution code for chessLadder assignment. Code is not necessarily the most efficient, does not do much in the way of error checking user-input, and does not feature permanent storage of data. It does give you an idea about how you might think about some of the logic involved in the project. 
+A chess ladder is an ongoing ranking of chess players so that they can be paired up with opponents of similar ability.
+**RULES**
+A player may challenge another player who is 1, 2, 3, or 4 ranks above him/her
+If there is sufficient time to play, the challenged player MUST play, or they will be recorded as the loser of the game.
+*winning*
+- If the lower-ranked player wins, they take the spot of the higher ranked player and the higher-ranked player moves down by one rank
+- If the lower-ranked player loses, nothing changes to the ranks as the higher-ranked player will keep their score.
+- If there is a draw, the lower-ranked player moves to one rank below the higher-ranked player. 
+
+# Technical proposal
+You must create a graphical user interface that will store the player usernames and rankings
+**This application should:**
+- allow the administrator to set up the initial usernames on the initiation of the ladder. Rankings should be assigned randomly in this instance. 
+- check to see whether or not a game is allowed (based on how many ranks are between competitors)
+- record the winner and loser of a game, which will allow it to update the rankings accordingly
+- update the players' rankings on the event of a draw
+- allow players to interact with the application via an easy-to-use graphical user interface (GUI)
 
 ## What you need to do
 - You will need to add a permanent storage solution for the ranks so that we can close the program and reopen it without having to worry about the usernames or ranks being deleted
