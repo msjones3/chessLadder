@@ -1,9 +1,9 @@
 # chessLadder
 A chess ladder is an ongoing ranking of chess players so that they can be paired up with opponents of similar ability.
-**RULES**
+## RULES
 A player may challenge another player who is 1, 2, 3, or 4 ranks above him/her
 If there is sufficient time to play, the challenged player MUST play, or they will be recorded as the loser of the game.
-*winning*
+
 - If the lower-ranked player wins, they take the spot of the higher ranked player and the higher-ranked player moves down by one rank
 - If the lower-ranked player loses, nothing changes to the ranks as the higher-ranked player will keep their score.
 - If there is a draw, the lower-ranked player moves to one rank below the higher-ranked player. 
